@@ -1,0 +1,38 @@
+export const ROLES = {
+  altman: {
+    id: 'altman',
+    name: 'Sam Altman',
+    org: 'OpenAI',
+    color: '#22c55e',
+    colorLight: 'rgba(34,197,94,0.15)',
+    description: 'Controls deployment speed and compute investment.',
+    startingMetrics: { usLead: 65, safetyRisk: 25, publicTrust: 50, agiProgress: 55 },
+  },
+  amodei: {
+    id: 'amodei',
+    name: 'Dario Amodei',
+    org: 'Anthropic',
+    color: '#f97316',
+    colorLight: 'rgba(249,115,22,0.15)',
+    description: 'Controls safety posture and publishing decisions.',
+    startingMetrics: { usLead: 55, safetyRisk: 30, publicTrust: 70, agiProgress: 40 },
+  },
+  president: {
+    id: 'president',
+    name: 'The President',
+    org: 'United States Government',
+    color: '#3b82f6',
+    colorLight: 'rgba(59,130,246,0.15)',
+    description: 'Controls regulation and export controls.',
+    startingMetrics: { usLead: 70, safetyRisk: 25, publicTrust: 55, agiProgress: 30 },
+  },
+  china: {
+    id: 'china',
+    name: 'Chinese AI Director',
+    org: 'PRC Ministry of Science',
+    color: '#ef4444',
+    colorLight: 'rgba(239,68,68,0.15)',
+    description: 'Playing from the other side. US AI Lead works against you; your goal is to close the gap.',
+    startingMetrics: { usLead: 70, safetyRisk: 35, publicTrust: 45, agiProgress: 35 },
+  },
+};
